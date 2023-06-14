@@ -1,0 +1,29 @@
+.bg-personalizado {
+    padding: 2rem;
+
+    .containerMain {
+        padding: 2rem;
+
+        .accordion-body {
+            background-color: rgba(0, 195, 255, 0.444);
+            text-align: center;
+            font-size: medium;
+            font-weight: 400;
+
+        }
+
+        .accordion-button:not(collapsed) {
+            color: #fafafa;
+            font-weight: 400;
+            font-size:large;
+            background-color: rgb(23, 150, 228);
+
+            &:hover {
+                background-color: rgba(23, 149, 228, 0.895);
+            }
+        }
+
+
+    }
+
+}

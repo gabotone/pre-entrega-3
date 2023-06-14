@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="escuela, surf, clases, dunamar, mapa, ubicacion" >
+    <meta name="description" content="Mapa navegable con la ubicacion de la escuela de surf viento norte." >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shorcut icon" href="../imagenes/vientoNorteFavicon.png">
+    <title>Viento Norte - Ubicacion</title>
+</head>
+
+<!---------- comienzo del body ---------------->
+
+<body>
+
+    <!--------------------------- comienzo barra de navegacion (todos los html)  ---------------------------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logos" src="../imagenes/vtoNorte.png"
+                        alt="vientoNorte"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="../secciones/nosotros.html">Acerca De Nosotros</a>
+                        <a class="nav-link active" aria-current="page" href="../secciones/ubicacion.html">Como Llegar</a>
+                        <a class="nav-link" href="../secciones/preguntas.html">Preguntas</a>
+                        <a class="nav-link" href="../secciones/contacto.html">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!----------------------------------- comienzo de contenido principal ---------------------------->
+
+    <main>
+
+        <div class="bg-personalizado">
+
+            <span>
+                <h1 class="titulos">Como Llegar A Viento Norte</h1>
+            </span>
+
+            <span>
+                <h2 class="texto-complementario">Nos encontramos en la playa de dunamar, a 50 metros del parador kuyem.</h2>
+            </span>
+
+            <!-- iframe mapa -->
+
+            <div class="containerMap container-fluid">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12427.164788207489!2d-60.09248283542479!3d-38.86013636322206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x242cad6e7dc73e83!2sViento%20norte!5e0!3m2!1ses!2sar!4v1661298047626!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </main>
+    <!---------------------------------- comienzo del footer ( todos los htmls ) ----------------------------------->
+
+    <footer class="footer">
+
+        <div class="containerGrid">
+
+            <div class="sociales">
+                <ul class="menuFooter">
+
+                    <li>
+                        <a href="https://www.instagram.com/vientonorte.dunamar/?hl=es" target="_blank">
+                            <img src="../imagenes/instalogo3.png" class="social" alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/facundoariel.gimenez.5" target="_blank">
+                            <img src="../imagenes/logoface.png" class="social" alt="Facebook">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/542983664056" target="_blank">
+                            <img src="../imagenes/wspLogo.png" class="social" alt="Whatsapp">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!------------------------ boton volver arriba ( con el logo ) ---------------------------------->
+
+            <div class="logo">
+                <div class="footerLogo">
+                    <a href="../index.html">
+                        <img class="logos" src="../imagenes/vientoNorte.png" alt="LogoFooter">
+                    </a>
+                </div>
+            </div>
+
+            <div class="copy">
+                <span>
+                    <h7 class="texto-footer">©2022 All Rights Reserved. Created by Gabriel Martone Web Developer.
+                    </h7>
+                </span>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
